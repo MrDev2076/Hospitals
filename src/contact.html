@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr_WeCare - ContactUs</title>
+    <link rel="stylesheet" href="/assets/styles/style.css">
+    <style>
+      
+        .form-container {
+            max-width: 800px;
+            margin: 0px 0px 50px 200px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input, 
+        .form-group select, 
+        .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .form-group textarea {
+            resize: vertical;
+        }
+        .form-group button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .form-group button:hover {
+            background-color: #046308;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+
+       <header>
+        <div class="logo">
+            <a href="/src/index.html"><img class="logo-img" src="/assets/images/logo2.avif" alt=""></a>
+            
+            <h1 style="margin-left: 50px;">Your Health is <big>O</big>ur Care </h1>
+            <button style="margin: 30px 0px 0px 750px;">Login</button>
+        </div>
+        <nav>
+            
+            <div class="menu">
+                <ul class="nav-li">
+                    <li><a href="/src/index.html">Home</a></li>
+                    <li><a href="/src/about.html">About</a></li>
+                    <li><a href="/src/contact.html">ContactUs</a></li>
+                    <li><a href="/src/gallery.html">Gallery</a></li>
+                </ul>
+            </div>
+        </nav>
+       </header>
+
+      <main>
+
+     
+      
+        
+        <div class="form-container">
+            
+            <form>
+                <h1 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center; color: blue;">Contact Us</h1>
+
+                <div class="form-group">
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" name="first-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" name="last-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="hospital">Select Hospital Branch</label>
+                    <select id="hospital" name="hospital" required>
+                        <option value="">Select</option>
+                        <option value="Gnt">Guntur Branch</option>
+                        <option value="Vij-1">Vijayawada-1</option>
+                        <option value="Vij-2">Vijayawad-2</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="remarks">Remarks</label>
+                    <textarea id="remarks" name="remarks" rows="4"></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+      </main>
+
+        <footer>
+            <div class="1">
+                <ul class="f-list" >
+                    
+                    <h2>Quick Links</h2>
+                    <li>Find a Doctor</li>
+                    <li>Book an Appointment</li>
+                    <li>Make an Enquiry</li>
+                    <li>Leave a Feedback</li>
+                </ul>
+            </div>
+            <div class="2">
+                <ul  class="f-list" >
+                    <h2>About</h2>
+                    <li>Hospitals</li>
+                    <li>Prep Foundation</li>
+                    <li>Insurance</li>
+                    <li>Prep Careers</li>
+                </ul>
+            </div>
+            <div class="3">
+                <ul  class="f-list" >
+                    <h2>Departments</h2>
+                    <li>Cardiology</li>
+                    <li>Neruro</li>
+                    <li>Gastro</li>
+                    <li>Pediatric</li>
+                    <li>Veternary</li>
+                </ul>
+            </div>
+
+            <div class="4">
+                <ul class="f-list">
+                    
+                    <img class="logo-img" src="/assets/images/logo2.avif" alt="">
+                    
+                    
+                    <p style="color: whitesmoke;"> <b>Visit Us :</b> <br> Hyderabad | Vijayawada | Guntur | Vizag | Tirupathi </p>
+                 
+                    
+                    <h2 style="color: white;">Subscribe To Newsletter</h2>
+                    <div class="" style="display: flex;">
+                        <input style="padding: 05px;border-radius: 40px; width: 320px;border: none;" type="email" placeholder="Enter your mail address">
+                   
+                        <svg style="position: relative; right:9%;" width="35px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-51.2 -51.2 614.40 614.40" xml:space="preserve" fill="#000000" transform="rotate(0)" stroke="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <circle style="fill:#387e25;" cx="256" cy="256" r="256"></circle> <path style="fill:#34454b;" d="M34.133,256c0-135.648,105.508-246.636,238.933-255.421C267.424,0.208,261.737,0,256,0 C114.615,0,0,114.615,0,256s114.615,256,256,256c5.737,0,11.424-0.208,17.067-0.579C139.642,502.636,34.133,391.648,34.133,256z"></path> <path style="fill:#E5E5E5;" d="M380.263,109.054c-2.486-1.69-5.676-1.946-8.399-0.679L96.777,236.433 c-4.833,2.251-7.887,7.172-7.766,12.501c0.117,5.226,3.28,9.92,8.065,12.015l253.613,110.457c8.468,3.849,18.439-2.21,18.983-11.453 l14.314-243.341C384.161,113.614,382.748,110.742,380.263,109.054z"></path> <polygon style="fill:#CCCCCC;" points="171.631,293.421 188.772,408 379.168,108.432 "></polygon> <path style="fill:#FFFFFF;" d="M371.866,108.375L96.777,236.433c-4.737,2.205-7.826,7.121-7.769,12.345 c0.058,5.233,3.276,10.074,8.067,12.171l74.557,32.471l207.536-184.988C376.882,107.33,374.203,107.287,371.866,108.375z"></path> <polygon style="fill:#E5E5E5;" points="211.418,310.749 188.772,408 379.168,108.432 "></polygon> <path style="fill:#FFFFFF;" d="M380.263,109.054c-0.351-0.239-0.72-0.442-1.095-0.622l-167.75,202.317l139.27,60.657 c8.468,3.849,18.439-2.21,18.983-11.453l14.314-243.341C384.161,113.614,382.748,110.742,380.263,109.054z"></path> </g></svg> <li>
+                            
+                    </div>
+                   </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
