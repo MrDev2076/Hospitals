@@ -1,0 +1,118 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+
+    body{
+        background-image: url('https://st5.depositphotos.com/35914836/63547/i/450/depositphotos_635479512-stock-photo-brown-wooden-wall-texture-background.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+     
+     .login{
+        background-image: linear-gradient(135deg, #f5f7fa 0%, #0052d6 100%);
+       
+       
+      
+        width: 900px;
+        height: 500px;
+
+        margin: 90px 0px 0px 320px;
+
+        border-radius: 30px;
+
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+        display: flex;
+     }
+
+     .login:hover{
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+
+        border-radius: 120px;
+
+        transition-duration: 05s;
+        
+        
+     }
+
+     .data{
+        margin-top: 50px;
+     }
+
+     a{
+        text-decoration: none;
+        color: cornsilk;
+        font-weight: bolder;
+        font-size: large;
+     }
+
+     p,label{
+        font-size: large;
+     }
+
+     input,button{
+        padding: 5px;
+        width: 300px;
+        border: none;
+        border-radius: 5px;
+        height: 30px;
+     }
+
+     button{
+        background-color: rgb(199, 197, 197);
+        font-weight: 600;
+     }
+     button:hover{
+        background-color: rgb(1, 1, 90);
+        font-weight: 600;
+        color: azure;
+     }
+
+     .logo-img:hover{
+      transition: 3000ms;
+            transition-timing-function: ease-in-out;
+            transform: rotateZ(30deg);
+     }
+
+
+    </style>
+</head>
+<body>
+
+    <div class="login">
+
+        <div class="logo">
+            <img src="https://fresherbot.com/images/login_graphics/one.png" alt="">
+        </div>
+
+        <div class="data">
+            <form action="" method="get" >
+                <img class="logo-img" src="https://fresherbot.com/storage/core/assets/fresherbot_logo_dark.png" alt="">
+                <h1>Login</h1>
+
+                <label for="phn">Phone</label> <br><br>
+                <input type="number" placeholder="" id="phn"> <br><br>
+
+                <label for="pwd">Password</label> <br><br>
+                <input type="password" placeholder="" id="pwd"><br><br>
+
+
+                <button type="submit">Sign in</button> <br><br>
+
+                <p>Not a member? &nbsp; <a href="/src/register.html">Register for free</a></p>  <a href="#">Forgot Password</a>
+            </form>
+
+
+        </div>
+
+
+
+    </div>
+
+
+</body>
+</html>
